@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Documents/Android/delivery/app/src/main/res/drawable/del_search_icon.xml" value="0.2203125" />
+<<<<<<< HEAD
         <entry key="..\:/Documents/Android/delivery/app/src/main/res/drawable/rounded.xml" value="0.2203125" />
         <entry key="..\:/Documents/Android/delivery/app/src/main/res/layout/activity_delivery_add.xml" value="0.25" />
         <entry key="..\:/Documents/Android/delivery/app/src/main/res/layout/activity_main.xml" value="0.1" />
@@ -13,6 +14,12 @@
         <entry key="..\:/Documents/Android/delivery/app/src/main/res/menu/search.xml" value="0.20416666666666666" />
         <entry key="..\:/Documents/Android/delivery/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
         <entry key="..\:/Documents/Android/delivery/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2203125" />
+=======
+        <entry key="..\:/Documents/Android/delivery/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Documents/Android/delivery/app/src/main/res/layout/delivery.xml" value="0.25" />
+        <entry key="..\:/Documents/Android/delivery/app/src/main/res/layout/main_address.xml" value="0.20416666666666666" />
+        <entry key="..\:/Documents/Android/delivery/app/src/main/res/menu/search.xml" value="0.20416666666666666" />
+>>>>>>> origin/IT20152000
       </map>
     </option>
   </component>

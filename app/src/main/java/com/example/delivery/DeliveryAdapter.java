@@ -1,5 +1,6 @@
 package com.example.delivery;
 
+<<<<<<< HEAD
 import android.content.DialogInterface;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,11 +12,20 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
+=======
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+>>>>>>> origin/IT20152000
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
+<<<<<<< HEAD
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.FirebaseDatabase;
@@ -24,6 +34,8 @@ import com.orhanobut.dialogplus.ViewHolder;
 
 import java.util.HashMap;
 import java.util.Map;
+=======
+>>>>>>> origin/IT20152000
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -40,19 +52,28 @@ public class DeliveryAdapter extends FirebaseRecyclerAdapter <DeliveryModel,Deli
     }
 
     @Override
+<<<<<<< HEAD
     protected void onBindViewHolder(@NonNull myViewHolder holder, final int position, @NonNull DeliveryModel model) {
+=======
+    protected void onBindViewHolder(@NonNull myViewHolder holder, int position, @NonNull DeliveryModel model) {
+>>>>>>> origin/IT20152000
         holder.name.setText(model.getName());
         holder.address.setText(model.getAddress());
         holder.mobile.setText(model.getMobile());
         holder.email.setText(model.getEmail());
 
         Glide.with(holder.img.getContext())
+<<<<<<< HEAD
                 .load(model.getIurl())
+=======
+                .load(model.getName())
+>>>>>>> origin/IT20152000
                 .placeholder(R.drawable.common_google_signin_btn_icon_dark)
                 .circleCrop()
                 .error(R.drawable.common_google_signin_btn_icon_dark_normal)
                 .into(holder.img);
 
+<<<<<<< HEAD
         holder.btnEdit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -137,6 +158,8 @@ public class DeliveryAdapter extends FirebaseRecyclerAdapter <DeliveryModel,Deli
                 builder.show();
             }
         });
+=======
+>>>>>>> origin/IT20152000
 
     }
 
@@ -152,8 +175,11 @@ public class DeliveryAdapter extends FirebaseRecyclerAdapter <DeliveryModel,Deli
         CircleImageView img;
         TextView name, address, mobile, email;
 
+<<<<<<< HEAD
         Button btnEdit, btnDelete;
 
+=======
+>>>>>>> origin/IT20152000
         public myViewHolder(@NonNull View itemView) {
             super(itemView);
 
@@ -162,10 +188,13 @@ public class DeliveryAdapter extends FirebaseRecyclerAdapter <DeliveryModel,Deli
             address = (TextView)itemView.findViewById(R.id.addresstext);
             mobile = (TextView)itemView.findViewById(R.id.mobiletext);
             email = (TextView)itemView.findViewById(R.id.emailtext);
+<<<<<<< HEAD
 
             btnEdit = (Button)itemView.findViewById(R.id.btnEdit);
             btnDelete = (Button)itemView.findViewById(R.id.btnDelete);
 
+=======
+>>>>>>> origin/IT20152000
         }
     }
 }

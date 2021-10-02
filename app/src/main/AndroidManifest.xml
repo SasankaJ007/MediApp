@@ -2,8 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.delivery">
 
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET" />
 
+=======
+    <uses-permission android:name="android.permission.INTERNET"/>
+>>>>>>> origin/IT20152000
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,9 +16,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Delivery">
         <activity
+<<<<<<< HEAD
             android:name=".DeliveryAddActivity"
             android:exported="true" />
         <activity
+=======
+>>>>>>> origin/IT20152000
             android:name=".Delivery"
             android:exported="true">
             <intent-filter>

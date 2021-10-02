@@ -14,12 +14,22 @@
         android:padding="15dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
+<<<<<<< HEAD
             android:id="@+id/adimg1"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@mipmap/ic_launcher"
             app:civ_border_color="#FF000000"
             app:civ_border_width="2dp" />
+=======
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerVertical="true"
+            android:id="@+id/adimg1"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+>>>>>>> origin/IT20152000
 
         <TextView
             android:layout_width="match_parent"
@@ -27,7 +37,11 @@
             android:id="@+id/nametext"
             android:text="User's Name"
             android:textStyle="bold"
+<<<<<<< HEAD
             android:textSize="20sp"
+=======
+            android:textSize="25sp"
+>>>>>>> origin/IT20152000
             android:textColor="#000"
             android:layout_toRightOf="@+id/adimg1"
             android:layout_marginLeft="10dp"
@@ -39,7 +53,11 @@
             android:id="@+id/addresstext"
             android:text="Address"
             android:textStyle="bold"
+<<<<<<< HEAD
             android:textSize="20sp"
+=======
+            android:textSize="25sp"
+>>>>>>> origin/IT20152000
             android:textColor="#000"
             android:layout_toRightOf="@+id/adimg1"
             android:layout_below="@id/nametext"
@@ -47,6 +65,7 @@
             />
 
         <TextView
+<<<<<<< HEAD
             android:id="@+id/mobiletext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,6 +76,19 @@
             android:textColor="#000"
             android:textSize="20sp"
             android:textStyle="bold" />
+=======
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobiletext"
+            android:text="Mobile"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/adimg1"
+            android:layout_below="@id/addresstext"
+            android:layout_marginLeft="10dp"
+            />
+>>>>>>> origin/IT20152000
 
         <TextView
             android:layout_width="match_parent"
@@ -64,13 +96,18 @@
             android:id="@+id/emailtext"
             android:text="Email"
             android:textStyle="bold"
+<<<<<<< HEAD
             android:textSize="20sp"
+=======
+            android:textSize="25sp"
+>>>>>>> origin/IT20152000
             android:textColor="#000"
             android:layout_toRightOf="@+id/adimg1"
             android:layout_below="@id/mobiletext"
             android:layout_marginLeft="10dp"
             />
 
+<<<<<<< HEAD
         <LinearLayout
             android:layout_below="@+id/emailtext"
             android:layout_width="match_parent"
@@ -95,6 +132,9 @@
 
 
         </LinearLayout>
+=======
+
+>>>>>>> origin/IT20152000
 
 
 
