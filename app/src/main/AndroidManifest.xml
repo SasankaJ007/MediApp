@@ -20,8 +20,6 @@
             android:name=".DeliveryAddActivity"
             android:exported="true" />
         <activity
-=======
->>>>>>> origin/IT20152000
             android:name=".Delivery"
             android:exported="true">
             <intent-filter>
@@ -29,7 +27,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-    </application>
 
-</manifest>
+    </manifest>
+
